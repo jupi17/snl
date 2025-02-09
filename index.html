@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3DX Asterix - Communauté 3DXChat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg fixed-top">
+        <nav class="container">
+            <a class="navbar-brand animate__animated animate__fadeIn" href="index.html">3DX Asterix</a>
+            <div class="d-flex align-items-center">
+                <button class="btn btn-link nav-link px-2 me-2" id="themeToggle" aria-label="Basculer le mode sombre">
+                    <i class="fas fa-moon fs-5"></i>
+                </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#activities">Activités</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#discord">Discord</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events">Événements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="snl.html">Jouer au SNL</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content animate__animated animate__fadeIn" data-aos="fade-up" data-aos-duration="1000">
+            <h1>Bienvenue sur 3DX Asterix</h1>
+            <p class="lead">La communauté française de 3DXChat</p>
+            <a href="#presentation" class="btn btn-lg btn-primary mt-3">Découvrir la communauté</a>
+        </div>
+    </section>
+
+    <main class="container mt-4">
+        <section id="presentation" class="py-5" data-aos="fade-up">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Présentation</h2>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6" data-aos="fade-right">
+                    <img src="https://via.placeholder.com/600x400?text=3DX+Asterix" alt="3DX Asterix Community" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <p class="lead">
+                        Découvrez une communauté française dynamique et accueillante sur 3DXChat.
+                        Nous organisons régulièrement des événements, des jeux et des rencontres pour
+                        créer des moments inoubliables ensemble.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities" class="py-5 alternate-section" data-aos="fade-up">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Nos Activités</h2>
+            </div>
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="display-4 mb-3">
+                                    <i class="fas fa-dice text-primary"></i>
+                                </div>
+                                <h3 class="h4 card-title">Jeu SNL</h3>
+                                <p class="card-text">Participez à nos parties de Serpents et Échelles en ligne. Un classique revisité pour plus de fun !</p>
+                                <a href="snl.html" class="btn btn-primary mt-3">Jouer au SNL</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="display-4 mb-3">
+                                    <i class="fas fa-money-bill-wave text-success"></i>
+                                </div>
+                                <h3 class="h4 card-title">Monopoly</h3>
+                                <p class="card-text">Bientôt disponible ! Notre version unique du Monopoly adaptée à la communauté 3DXChat.</p>
+                                <a href="#" class="btn btn-success mt-3">Découvrir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="display-4 mb-3">
+                                    <i class="fas fa-calendar-alt text-info"></i>
+                                </div>
+                                <h3 class="h4 card-title">Événements</h3>
+                                <p class="card-text">Soirées à thème, concours et animations régulières pour la communauté.</p>
+                                <a href="#events" class="btn btn-info mt-3">Voir le calendrier</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="discord" class="py-5" data-aos="fade-up">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Rejoignez notre Discord</h2>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                        <div class="discord-content">
+                            <h3 class="h4 mb-4">Pourquoi nous rejoindre ?</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="fas fa-check-circle text-primary me-2"></i>
+                                    Communauté active et bienveillante
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-check-circle text-primary me-2"></i>
+                                    Annonces des événements en avant-première
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-check-circle text-primary me-2"></i>
+                                    Support et aide pour les jeux
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-check-circle text-primary me-2"></i>
+                                    Partage de moments conviviaux
+                                </li>
+                            </ul>
+                            <a href="https://discord.gg/vAZBBT49x3" target="_blank" class="btn btn-discord mt-3">
+                                <i class="fab fa-discord me-2"></i>Rejoindre le Discord
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <div class="discord-widget-container">
+                            <iframe 
+                                src="https://discord.com/widget?id=1332546255053656144&theme=dark" 
+                                width="100%" 
+                                height="500" 
+                                allowtransparency="true" 
+                                frameborder="0" 
+                                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="py-5 alternate-section mb-5" data-aos="fade-up">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Événements à venir</h2>
+                </div>
+                <div class="events-grid">
+                    <div class="event-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">Fév</span>
+                        </div>
+                        <div class="event-content">
+                            <h3 class="event-title">Soirée Jeux SNL</h3>
+                            <p class="event-time"><i class="fas fa-clock me-2"></i>20:00 - 23:00</p>
+                            <p class="event-description">Venez participer à notre soirée jeux hebdomadaire ! Au programme : parties de SNL, lots à gagner et bonne ambiance garantie.</p>
+                            <a href="#" class="btn btn-primary btn-sm mt-3">Je participe</a>
+                        </div>
+                    </div>
+
+                    <div class="event-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="event-date">
+                            <span class="day">20</span>
+                            <span class="month">Fév</span>
+                        </div>
+                        <div class="event-content">
+                            <h3 class="event-title">Tournoi SNL</h3>
+                            <p class="event-time"><i class="fas fa-clock me-2"></i>19:00 - 22:00</p>
+                            <p class="event-description">Grand tournoi mensuel ! Affrontez les meilleurs joueurs de la communauté et tentez de remporter le titre de champion.</p>
+                            <a href="#" class="btn btn-primary btn-sm mt-3">S'inscrire</a>
+                        </div>
+                    </div>
+
+                    <div class="event-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="event-date">
+                            <span class="day">25</span>
+                            <span class="month">Fév</span>
+                        </div>
+                        <div class="event-content">
+                            <h3 class="event-title">Soirée Spéciale</h3>
+                            <p class="event-time"><i class="fas fa-clock me-2"></i>21:00 - 00:00</p>
+                            <p class="event-description">Soirée à thème avec des règles spéciales et des surprises. Le thème sera révélé quelques jours avant l'événement !</p>
+                            <div class="event-tags">
+                                <span class="badge bg-primary">Surprise</span>
+                                <span class="badge bg-success">Cadeaux</span>
+                            </div>
+                            <a href="#" class="btn btn-primary btn-sm mt-3">Plus d'infos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-4 mt-auto">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <p class="mb-lg-0">&copy; 2024 3DX Asterix. Tous droits réservés.</p>
+                </div>
+                <div class="col-lg-6 text-center text-lg-end">
+                    <a href="#" class="text-decoration-none me-3">Mentions légales</a>
+                    <a href="#" class="text-decoration-none">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
